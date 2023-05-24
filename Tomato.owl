@@ -1,0 +1,527 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/geetaanjali/ontologies/2023/4/TomatoDisease"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/geetaanjali/ontologies/2023/4/TomatoDisease">
+    <Prefix name="" IRI="http://www.semanticweb.org/geetaanjali/ontologies/2023/4/untitled-ontology-7#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class abbreviatedIRI=":Agricultural_Agents"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Bacteria"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Bacterial_Canker"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Bacterial_Spot"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Bacterial_diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Biological_Seed_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Browning"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Causes"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Coating"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Cracking"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Crop_Consultants"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Crop_Rotation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Cultural_Practices"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Decay"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Discoloration"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Early_Blight"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Entomologists"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Environmental_Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Fruit_Cranking"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Fruit_Symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Fungal_diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Fungi"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Fungicidal_seed_treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Fusarium_Wilt"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Humidity"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Insecticidal_Seed_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Insects"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Late_Blight"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Leaf_Curl"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Leaf_Symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Light"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Living_entities"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Pesticides"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Physiological_diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Plant_Breeders"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Plant_Pathologists"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Proper_spacing"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Removal_dead_parts"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Root_Symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Root_rot"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Sanitation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Seed_priming"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Seed_treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Septoria_Leaf_Spot"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Soil_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Spots"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Stem_Symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Stunted_growth"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Sunscald"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Tomato_Diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Tomato_Leaf_Curl"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Tomato_Mosaic_virus"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Tomato_Spotted_Wilt"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Tomato_Yellow_Leaf_Virus"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Verticillium_Wilt"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Viral_diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Watering"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Weed_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Wilting"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Wind"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Worker"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Yellowing"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":bactericides"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":fungicides"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":insecticides"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":virus"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":water_management"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":water_mold"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Agricultural_Agents"/>
+        <Class abbreviatedIRI=":Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Bacteria"/>
+        <Class abbreviatedIRI=":Living_entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Bacterial_Canker"/>
+        <Class abbreviatedIRI=":Bacterial_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Bacterial_Spot"/>
+        <Class abbreviatedIRI=":Bacterial_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Bacterial_diseases"/>
+        <Class abbreviatedIRI=":Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Biological_Seed_Treatment"/>
+        <Class abbreviatedIRI=":Seed_treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Browning"/>
+        <Class abbreviatedIRI=":Leaf_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Causes"/>
+        <Class abbreviatedIRI=":Tomato_Diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Coating"/>
+        <Class abbreviatedIRI=":Seed_treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Cracking"/>
+        <Class abbreviatedIRI=":Fruit_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Crop_Consultants"/>
+        <Class abbreviatedIRI=":Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Crop_Rotation"/>
+        <Class abbreviatedIRI=":Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Cultural_Practices"/>
+        <Class abbreviatedIRI=":Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Decay"/>
+        <Class abbreviatedIRI=":Fruit_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Discoloration"/>
+        <Class abbreviatedIRI=":Stem_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Disease"/>
+        <Class abbreviatedIRI=":Tomato_Diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Early_Blight"/>
+        <Class abbreviatedIRI=":Fungal_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Entomologists"/>
+        <Class abbreviatedIRI=":Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Environmental_Condition"/>
+        <Class abbreviatedIRI=":Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Fruit_Cranking"/>
+        <Class abbreviatedIRI=":Physiological_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Fruit_Symptoms"/>
+        <Class abbreviatedIRI=":Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Fungal_diseases"/>
+        <Class abbreviatedIRI=":Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Fungi"/>
+        <Class abbreviatedIRI=":Living_entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Fungicidal_seed_treatment"/>
+        <Class abbreviatedIRI=":Seed_treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Fusarium_Wilt"/>
+        <Class abbreviatedIRI=":Fungal_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Humidity"/>
+        <Class abbreviatedIRI=":Environmental_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Insecticidal_Seed_Treatment"/>
+        <Class abbreviatedIRI=":Seed_treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Insects"/>
+        <Class abbreviatedIRI=":Living_entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Late_Blight"/>
+        <Class abbreviatedIRI=":Fungal_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Leaf_Curl"/>
+        <Class abbreviatedIRI=":Leaf_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Leaf_Symptoms"/>
+        <Class abbreviatedIRI=":Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Light"/>
+        <Class abbreviatedIRI=":Environmental_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Living_entities"/>
+        <Class abbreviatedIRI=":Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Pesticides"/>
+        <Class abbreviatedIRI=":Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Physiological_diseases"/>
+        <Class abbreviatedIRI=":Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Plant_Breeders"/>
+        <Class abbreviatedIRI=":Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Plant_Pathologists"/>
+        <Class abbreviatedIRI=":Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Prevention"/>
+        <Class abbreviatedIRI=":Tomato_Diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Proper_spacing"/>
+        <Class abbreviatedIRI=":Cultural_Practices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Removal_dead_parts"/>
+        <Class abbreviatedIRI=":Cultural_Practices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Root_Symptoms"/>
+        <Class abbreviatedIRI=":Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Root_rot"/>
+        <Class abbreviatedIRI=":Root_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Sanitation"/>
+        <Class abbreviatedIRI=":Cultural_Practices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Seed_priming"/>
+        <Class abbreviatedIRI=":Seed_treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Seed_treatment"/>
+        <Class abbreviatedIRI=":Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Septoria_Leaf_Spot"/>
+        <Class abbreviatedIRI=":Fungal_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Soil_quality"/>
+        <Class abbreviatedIRI=":Environmental_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Spots"/>
+        <Class abbreviatedIRI=":Fruit_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Stem_Symptoms"/>
+        <Class abbreviatedIRI=":Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Stunted_growth"/>
+        <Class abbreviatedIRI=":Root_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Sunscald"/>
+        <Class abbreviatedIRI=":Physiological_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Symptom"/>
+        <Class abbreviatedIRI=":Tomato_Diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Temperature"/>
+        <Class abbreviatedIRI=":Environmental_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Tomato_Leaf_Curl"/>
+        <Class abbreviatedIRI=":Viral_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Tomato_Mosaic_virus"/>
+        <Class abbreviatedIRI=":Viral_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Tomato_Spotted_Wilt"/>
+        <Class abbreviatedIRI=":Viral_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Tomato_Yellow_Leaf_Virus"/>
+        <Class abbreviatedIRI=":Viral_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Treatment"/>
+        <Class abbreviatedIRI=":Tomato_Diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Verticillium_Wilt"/>
+        <Class abbreviatedIRI=":Fungal_diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Viral_diseases"/>
+        <Class abbreviatedIRI=":Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Watering"/>
+        <Class abbreviatedIRI=":Environmental_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Weed_Control"/>
+        <Class abbreviatedIRI=":Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Wilting"/>
+        <Class abbreviatedIRI=":Stem_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Wind"/>
+        <Class abbreviatedIRI=":Environmental_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Worker"/>
+        <Class abbreviatedIRI=":Tomato_Diseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Yellowing"/>
+        <Class abbreviatedIRI=":Leaf_Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":bactericides"/>
+        <Class abbreviatedIRI=":Pesticides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":fungicides"/>
+        <Class abbreviatedIRI=":Pesticides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":insecticides"/>
+        <Class abbreviatedIRI=":Pesticides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":virus"/>
+        <Class abbreviatedIRI=":Living_entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":water_management"/>
+        <Class abbreviatedIRI=":Cultural_Practices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":water_mold"/>
+        <Class abbreviatedIRI=":Living_entities"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
